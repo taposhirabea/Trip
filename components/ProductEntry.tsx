@@ -4,11 +4,11 @@ import styles from "../styles/NewsArticleEntry.module.css";
 import Image from "next/image";
 import placeholderImage from '../assets/newsarticle_placeholder.jpg'
 
-interface NewsArticleEntryProps {
+interface ProductEntryProps {
     article: ProductModel,
 }
 
-const ProductEntry = ({ article: {id,name, image} }: NewsArticleEntryProps) => {
+const ProductEntry = ({ article: {id,name, image} }: ProductEntryProps) => {
 
     const validImageUrl = (image?.startsWith("http://") || image?.startsWith("https://")) || image ? image : undefined;
     return ( 

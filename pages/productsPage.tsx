@@ -23,7 +23,7 @@ export default function BreakingNewsPage({ newsArticles }: BreakingNewsPageProps
   return (
     <>
       <Head>
-        <title key="title">Breaking news</title>
+        <title key="title">All Products</title>
       </Head>
       <main >
         <h1>All Products</h1>
