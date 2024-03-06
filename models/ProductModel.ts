@@ -6,7 +6,7 @@ export interface ProductModel {
     image?: string,
     price: number,
     url: string,
-    colors: string
+
 }
 export interface NewsResponse {
     articles: ProductModel[],

@@ -45,7 +45,6 @@ const ProductDetailsPage = () => {
         <div className="row">
           <div className="col-10 mx-auto col-lg-4 my-5 text-center">
             <div className="single-product-img-container">
-              {/* <img src={productDetails.image} alt="door" className="img-fluid"/> */}
               <Image src={productDetails.image || placeholderImage} alt='door' className='img-fluid' width={500}
                 height={200}/>
 
