@@ -12,7 +12,7 @@ const ProductEntry = ({ article: {id,name, image} }: ProductEntryProps) => {
 
     const validImageUrl = (image?.startsWith("http://") || image?.startsWith("https://")) || image ? image : undefined;
     return ( 
-        <a href={`/products/${id}`}>
+        <a href={`/products/${id}`} className="text-decoration-none text-capitalize">
         <Card className='h-100'>
             <Image
                 src={validImageUrl || placeholderImage}

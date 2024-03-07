@@ -1,7 +1,9 @@
+import PageHero from "@/components/PageHero";
+
 export default function Home() {
   return (
     <div>
-      <h1>ddddddd</h1>
+      <PageHero/>
     </div>
   )
 }
