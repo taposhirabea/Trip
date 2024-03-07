@@ -19,8 +19,8 @@ export default function App({ Component, pageProps }: AppProps) {
   </Head>
   <NextNProgress />
   <NavBar/>
-  <Container className="pageContainer">
+  <div className="pageContainer">
     <Component {...pageProps} />
-  </Container>
+  </div>
 </div>
 }

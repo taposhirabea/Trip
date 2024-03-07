@@ -25,7 +25,7 @@ export default function ProductNewPage({ products }: ProductNewPageProps) {
       <Head>
         <title key="title">All Products</title>
       </Head>
-      <main >
+      <main className='p-4' style={{background: "#F1F5F8"}} >
         <h1>All Products</h1>
         <ProductsGrid articles={products} />
       </main>

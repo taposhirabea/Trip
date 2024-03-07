@@ -7,8 +7,8 @@ import Link from 'next/link';
 
 export default function PageHero() {
   return (
-    <div className='row container-fluid py-4 justify-content-center main'>
-        <article className='col col-md-6'>
+    <div className='row p-5 justify-content-center' style={{background: "#F1F5F8"}}>
+        <article className='col col-md-6 '>
         <h1 className='text-capitalize '>
           design your <br />
           comfort zone

@@ -1,0 +1,25 @@
+/* Service.module.css */
+.carousel {
+    overflow: hidden;
+  }
+  
+  .carouselInner {
+    display: flex;
+    transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+  
+  .carouselItem {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  
+  .imageSet {
+    display: flex;
+    flex-direction: row-reverse; /* Change to reverse the order */
+  }
+  
+  .imageWrapper {
+    flex: 0 0 33.3333%;
+  }
+
+  

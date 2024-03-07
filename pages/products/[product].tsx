@@ -37,7 +37,7 @@ const ProductDetailsPage = () => {
     // You can show a loading state or redirect to an error page
     return <p>Loading...</p>;
   }
-
+  //const validImageUrl = (productDetails.image?.startsWith("http://") || productDetails.image?.startsWith("https://")) || productDetails.image ? productDetails.image : undefined;
   return (
     <div>
       <section className="single-product py-5">
@@ -45,7 +45,7 @@ const ProductDetailsPage = () => {
         <div className="row">
           <div className="col-10 mx-auto col-lg-4 my-5 text-center">
             <div className="single-product-img-container">
-              <Image src={productDetails.image || placeholderImage} alt='door' className='img-fluid' width={500}
+              <Image src={productDetails.image || placeholderImage} alt={productDetails.name} className='img-fluid' width={500}
                 height={200}/>
 
             </div>

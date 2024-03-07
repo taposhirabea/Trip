@@ -21,7 +21,7 @@ const ProductEntry = ({ article: {id,name, image} }: ProductEntryProps) => {
                 alt="News article image"
                 className={`card-img-top ${styles.image}`}
             />
-            <Card.Body >
+            <Card.Body style={{background: "#EADED7"}}>
                 
                 <Card.Title >{name}</Card.Title>
             </Card.Body>
