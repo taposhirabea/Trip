@@ -37,6 +37,7 @@ const ProductDetailsPage = () => {
     // You can show a loading state or redirect to an error page
     return <p>Loading...</p>;
   }
+  console.log(productDetails)
   //const validImageUrl = (productDetails.image?.startsWith("http://") || productDetails.image?.startsWith("https://")) || productDetails.image ? productDetails.image : undefined;
   return (
     <div>
@@ -45,8 +46,14 @@ const ProductDetailsPage = () => {
         <div className="row">
           <div className="col-10 mx-auto col-lg-4 my-5 text-center">
             <div className="single-product-img-container">
-              <Image src={productDetails.image || placeholderImage} alt={productDetails.name} className='img-fluid' width={500}
-                height={200}/>
+       
+ <Image
+                  src={productDetails.images[0].url || placeholderImage}
+                  alt={productDetails.name}
+                  className='img-fluid'
+                  width={800}
+                  height={400}
+                />
 
             </div>
             <div className="row simgle-product-photos mt-3">

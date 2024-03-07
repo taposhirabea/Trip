@@ -7,6 +7,13 @@ export interface ProductModel {
     price: number,
     url: string,
 
+
+    images: Array<{
+        id: string;
+        url: string;
+        
+      }>;
+
 }
 export interface NewsResponse {
     articles: ProductModel[],
